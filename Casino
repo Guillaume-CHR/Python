@@ -1,0 +1,23 @@
+# -*-coding:Latin-1 -*
+
+import os
+import getpass
+from random import randrange
+from math import ceil
+
+Budget=int(1000)
+print("""Welcome""",getpass.getuser().capitalize(),""" to the Roulette game.
+For this game, you have a budget of""", Budget, """$
+
+""")
+
+	a = True
+	while a:
+		Bet = input("Please enter your bet: ")
+		
+
+
+
+Sum = input("Please enter the number you place your bet on:")
+Roulette = randrange(49)
+print(Roulette)
